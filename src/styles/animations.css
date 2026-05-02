@@ -1,0 +1,15 @@
+/* animations.css — utility classes (keyframes defined in global.css) */
+
+.fade-in    { animation: fadeInUp 0.4s ease forwards; }
+.pop-in     { animation: popIn 0.35s cubic-bezier(.34,1.56,.64,1) forwards; }
+.slide-left { animation: slideInLeft 0.35s ease forwards; }
+
+.spinner {
+  display: inline-block;
+  width: 13px; height: 13px;
+  border: 2px solid rgba(255,255,255,0.25);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.65s linear infinite;
+  vertical-align: middle;
+}
