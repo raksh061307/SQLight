@@ -21,7 +21,7 @@ npm start      # → http://localhost:3000
 
 ### Enable AI Explanations (optional)
 
-1. Get a key from https://console.anthropic.com
+1. Get a key from https://console.groq.com/
 2. Open `src/hooks/useGroqExplain.js`
 3. Uncomment the 3 header lines and add your key
 
