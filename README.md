@@ -20,6 +20,7 @@ npm start      # → http://localhost:3000
 ```
 
 ### Enable AI Explanations (optional)
+can be used with any available api key with proper installation.
 
 1. Get a key from https://console.groq.com/
 2. Open `src/hooks/useGroqExplain.js`
@@ -27,7 +28,7 @@ npm start      # → http://localhost:3000
 
 Or use a `.env` file:
 ```
-REACT_APP_GROQ_API_KEY=sk-ant-...
+REACT_APP_GROQ_API_KEY=gsk_...
 ```
 
 ## 🧪 Try These Queries
