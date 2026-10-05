@@ -22,12 +22,12 @@ npm start      # → http://localhost:3000
 ### Enable AI Explanations (optional)
 
 1. Get a key from https://console.anthropic.com
-2. Open `src/hooks/useClaudeExplain.js`
+2. Open `src/hooks/useGroqExplain.js`
 3. Uncomment the 3 header lines and add your key
 
 Or use a `.env` file:
 ```
-REACT_APP_ANTHROPIC_API_KEY=sk-ant-...
+REACT_APP_GROQ_API_KEY=sk-ant-...
 ```
 
 ## 🧪 Try These Queries
