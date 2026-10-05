@@ -83,5 +83,5 @@ src/
 │   ├── schemaInferrer.js           # ★ Universal schema inference + data generator
 │   └── sqlParser.js                # SQL clause parser + complexity scorer
 └── hooks/
-    └── useClaudeExplain.js         # Claude API integration
+    └── useGroqExplain.js         # Claude API integration
 ```
